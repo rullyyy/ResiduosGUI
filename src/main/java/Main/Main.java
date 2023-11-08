@@ -5,6 +5,7 @@
 package Main;
 
 import GUI.PantallaInicial;
+import GUI.RegistraResiduosFrm;
 
 /**
  *
@@ -42,7 +43,8 @@ public class Main {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PantallaInicial().setVisible(true);
+               new RegistraResiduosFrm().setVisible(true);
+               
             }
         });
     }
